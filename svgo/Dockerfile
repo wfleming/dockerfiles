@@ -1,0 +1,9 @@
+FROM node:7-slim
+MAINTAINER Will Fleming <will@flemi.ng>
+
+RUN npm install -g svgo
+
+WORKDIR "/src"
+VOLUME "/src"
+
+ENTRYPOINT ["svgo"]
