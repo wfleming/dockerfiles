@@ -1,0 +1,10 @@
+{
+  "name": "grunt-webfont-cli",
+  "version": "0.1.0",
+
+  "dependencies": {
+    "grunt-webfont": "*",
+    "grunt": "*",
+    "grunt-cli": "*"
+  }
+}
