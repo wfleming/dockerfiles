@@ -1,5 +1,5 @@
 FROM node:7-slim
-MAINTAINER Will Fleming <will@flemi.ng>
+LABEL "maintainer" "Will Fleming <will@flemi.ng>"
 
 RUN npm install -g svgo
 
